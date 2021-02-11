@@ -1,0 +1,101 @@
+* 
+{
+    background: black;
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+
+    font: 14px/28px D-DIN-Bold;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 6em;
+    /* right: 11vw; */
+
+}
+
+.nav-links
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: center;
+    left: 10vw;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+#shop
+{
+    margin-left: auto;
+}
+    
+
+li 
+{
+    margin-left: 2em;
+}
+
+#launch
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#landing
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#space
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer
+{
+    align-self: bottom;
+    margin-bottom: 38px;
+    margin-top: 38px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer > *
+{
+    margin-left: 2.5em;
+}
+
+@font-face 
+{
+    font-family: 'D-DIN-Bold';
+    src:url('D-DIN-BOLD/D-DIN-Bold.ttf.woff') format('woff'),
+        url('D-DIN-BOLD/D-DIN-Bold.ttf.svg#D-DIN-Bold') format('svg'),
+        url('D-DIN-BOLD/D-DIN-Bold.ttf.eot'),
+        url('D-DIN-BOLD/D-DIN-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
